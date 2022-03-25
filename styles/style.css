@@ -23,6 +23,10 @@ ion-icon {
   font-size: 22px;
 }
 
+ion-icon:hover {
+  filter: contrast(0.2);
+}
+
 a {
   display: inherit;
   text-decoration: none;
@@ -252,7 +256,7 @@ a:visited {
   color: #262626;
 }
 
-.post-perfil .post-header ion-icon {
+.post-header ion-icon {
   font-size: 16px;
   color: #262626;
 
@@ -584,6 +588,10 @@ a:visited {
   color: #139ef2;
 
   cursor: pointer;
+}
+
+.sidebar .sugestao .seguir:hover {
+  filter: contrast(0.7);
 }
 
 /* sobre */
